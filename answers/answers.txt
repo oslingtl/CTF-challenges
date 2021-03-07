@@ -1,0 +1,8 @@
+steganography flags:
+SA_FLAG{GARTH_N1X} - word document in image LSB (stegpy)
+SA_FLAG{PATR1CK_ROTHFUSS} - word document unzip xml hidden image
+SA_FLAG{BRAND0N_SAND3RSON} - zip file hidden at end
+SA_FLAG{PH1LIP_PULLMAN} - pdf creator
+SA_FLAG{ANDRZEJ_SAPKOWSK1} - raw file bits
+SA_FLAG{JRR_T0LKIEN} - png text chunk comment
+SA_FLAG{CSLEWIS} - analyse chunk names
