@@ -6,3 +6,10 @@ SA_FLAG{PH1LIP_PULLMAN} - pdf creator
 SA_FLAG{ANDRZEJ_SAPKOWSK1} - raw file bits
 SA_FLAG{JRR_T0LKIEN} - png text chunk comment
 SA_FLAG{CSLEWIS} - analyse chunk names
+
+sql-injection:
+SA_FLAG{Jam3s_tedesc0} - data table
+SA_FLAG{WiLl_K3nneDy} - table name (sqlite_master)
+SA_FLAG{KALyN_P0ngA} - temp database - fullback_powerrankings
+SA_FLAG{CL1nT_GUthERsON} - temp database - fullback_powerrankings
+SA_FLAG{LATr3LL_M1tCheLL} - html source
