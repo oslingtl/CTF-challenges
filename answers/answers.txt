@@ -13,3 +13,6 @@ SA_FLAG{WiLl_K3nneDy} - table name (sqlite_master)
 SA_FLAG{KALyN_P0ngA} - temp database - fullback_powerrankings
 SA_FLAG{CL1nT_GUthERsON} - temp database - fullback_powerrankings
 SA_FLAG{LATr3LL_M1tCheLL} - html source
+
+reflected-xss:
+SA_FLAG{mOnop0ly} - reflected cookie payload
