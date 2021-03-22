@@ -57,6 +57,17 @@ def login():
     return open("login.html").read()
 
 
+comments = []
+
+@app.route("/xss", methods=["GET", "POST"])
+def xss():
+    global comments
+    if request.method == 'POST':
+        if "comment" in request.form:
+            comments.append(request.form.get("comment"))
+    return render_template("blog.html", comments=comments)
+
+
 @app.route("/")
 def main():
     return open("403.html").read()

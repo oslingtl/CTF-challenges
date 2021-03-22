@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Blog
+    </title>
+</head>
+<body>
+
+<h1>Blog</h1>
+
+<p>The Australian Defence Force will support the NSW flood emergency efforts from Tuesday.
+
+    <br /><br />“Emergency Management Australia have received an official request for assistance from NSW,” a spokesman from the Prime Minister’s office said.
+
+    <br /><br />“The request is for two search and rescue helicopters operating out of the NSW south coast for 24-hour operations. ADF will be able to provide this support and will commence service tomorrow.”
+
+    <br /><br />Emergency Management Australia is a division of the Department of Home Affairs.
+
+    <br /><br />Earlier today, Prime Minister Scott Morrison said they expected a formal request to be made from the NSW government.
+
+    <br /><br />“We understand this is likely to be for recovery support and clean-up operations, including personnel, vehicles and machinery,” he said. “The Premier [Gladys Berejiklian] and I were discussing that over the weekend.”
+
+    <br /><br />He said the ADF was “readying itself for this task that still lays ahead”.
+
+    <br /><br />“Particularly in the recovery phase,” Mr Morrison said. “It is working closely with NSW Emergency Services to co-ordinate potential areas for assistance.”</p>
+
+<h3>Comments</h3> 
+<form method="POST"> 
+    Add Comment
+    <input type="text" name="comment" min="0">
+    <button name="submit" type="submit">Submit</button>
+    <br>
+</form>
+{%- for item in comments %}
+    <p>{{ item|safe }}</p><br />
+{%- endfor %}
+
+</body>
+</html>
