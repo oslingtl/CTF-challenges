@@ -16,3 +16,11 @@ SA_FLAG{LATr3LL_M1tCheLL} - html source
 
 reflected-xss:
 SA_FLAG{mOnop0ly} - reflected cookie payload
+
+networking:
+
+reverse-engineering:
+SA_FLAG{hello world!}
+SA_FLAG{EVeNing_Jup1teR}
+SA_FLAG{mornInG_MarS}
+SA_FLAG{GoodByE_w0rld}

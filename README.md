@@ -6,3 +6,5 @@ See [my blog](https://www.openlearning.com/u/lukeos/blog/SomethingAwesomeProposa
 * Steganography: 7 flags
 * SQL Injection: 7 flags
 * Reflected XSS: 1 flag
+* Networking: 4 flags
+* Reverse Engineering: 4 flags
