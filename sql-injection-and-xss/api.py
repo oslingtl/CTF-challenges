@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_file
 from flask_cors import CORS
 import sqlite3
 
@@ -27,7 +27,10 @@ def register():
     except sqlite3.Error as e:
         return str(e)
 
-
+@app.route("/databases")
+def databases():
+    return open("databases.html").read()
+    
 @app.route("/search")
 def search():
     code = request.args.get('code')
@@ -70,7 +73,14 @@ def xss():
 
 @app.route("/")
 def main():
-    return open("403.html").read()
+    return render_template("all.html")
+
+@app.route("/download")
+def download():
+    filename = request.args['filename']
+    print("got filename: " + request.args['filename'])
+    return send_file(filename, as_attachment=True)
+
 
 
 if __name__ == "__main__":
